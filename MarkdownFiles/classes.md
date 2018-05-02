@@ -9,8 +9,8 @@ public class Pet {
 	String petName;
 
 	public Pet (String name){ //Pet constructor that creates pet object with name as petName
-    	petName = name;
-    }
+    		petName = name;
+    	}
     
 	//code in class
 }
@@ -26,17 +26,17 @@ A class in Kotlin is defined as below. Classes can have primary or secondary con
 ```kotlin
 class Pet(name: String){ //class declaration with primary constructor
 
-	val name: String
-    val gender: Char
+    	val name: String
+    	val gender: Char
 	
-	init{
-    	println("Initializer block")
-    }
+    	init{
+    		println("Initializer block")
+   	}
     
-    constructor(name: String, gender: Char){ //secondary constructor
-    	this.name = name
-        this.gender = gender
-    }
+    	constructor(name: String, gender: Char){ //secondary constructor
+    		this.name = name
+        	this.gender = gender
+    	}
 }
 ```
 ```kotlin
