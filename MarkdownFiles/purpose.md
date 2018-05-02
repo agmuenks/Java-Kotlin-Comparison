@@ -1,1 +1,0 @@
-#Language purpose and genesis
