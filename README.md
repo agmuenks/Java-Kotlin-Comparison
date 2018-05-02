@@ -3,7 +3,7 @@ A Final project for CS4330. This project compares many aspects between the OOP l
 
 Team Member: Andrew Muenks
 
-[Language purpose and genesis](MarkdownFiles/purpose.md)  
+[Language purpose and genesis](MarkdownFiles/language_purpose.md)  
 [Unique features](MarkdownFiles/purpose.md)  
 [Name spaces](MarkdownFiles/purpose.md)  
 [Types](MarkdownFiles/purpose.md)  
