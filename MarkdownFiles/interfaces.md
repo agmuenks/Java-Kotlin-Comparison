@@ -6,23 +6,23 @@ Both Java and Kotlin support interfaces. Java interfaces are defined using the i
 ```java
 interface Changeable {
 	int maxNumberOfChanges = 5; //constant field in interface
-    void change(); //abstract method
-    default void message () { //default method
-    	System.out.println("The object has been changed.");
-    }
+    	void change(); //abstract method
+    	default void message () { //default method
+    		System.out.println("The object has been changed.");
+    	}
 }
 
 class Thing implements Changebale { //class implementing an interface
 	int numberOfChanges = 0;
-    int x = 1;
+    	int x = 1;
     
-    @Override
-    public void change() { //implementation of abstract method
-    	if (numberOfchanges < maxNumberOfChanges) { //maxNumberOfChanges is a constant from the interface
-        	x = x + 1;
-            this.message(); //calls default method which does not need to be defined
-        }
-    }
+    	@Override
+    	public void change() { //implementation of abstract method
+    		if (numberOfchanges < maxNumberOfChanges) { //maxNumberOfChanges is a constant from the interface
+        		x = x + 1;
+            	this.message(); //calls default method which does not need to be defined
+        	}
+    	}
 }
 ```
 
@@ -32,22 +32,22 @@ Kotlin interfaces are similar to Java interfaces. Like Java, an interface is def
 ```kotlin
 interface Changeable {
 	val maxNumberOfChanges: Int //property declared
-    	get () = 5;
-    fun change() //abstract method
-    fun message() { //method with implementation
-    	println("The object has been changed.")
-    }
+		get () = 5;
+    	fun change() //abstract method
+    	fun message() { //method with implementation
+    		println("The object has been changed.")
+    	}
 }
 
 class Thing: Changeable { //class implementing an interface
 	var numberOfChanges = 0
-    var x = 1
-    override fun change() { //implementation of abstract method
-    	if(numberOfChanges < maxNumberOfChanges) {
-        	x = x + 1
-        }
-        message() //calls method defined in interface
-    }
+    	var x = 1
+    	override fun change() { //implementation of abstract method
+    		if(numberOfChanges < maxNumberOfChanges) {
+        		x = x + 1
+        	}
+        	message() //calls method defined in interface
+    	}
 }
 ```
 
