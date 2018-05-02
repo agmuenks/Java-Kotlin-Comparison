@@ -5,3 +5,5 @@ Java relies on the Java Virtual Machine (JVM) for memory allocation and manageme
 
 ### Kotlin
 Kotlin runs on the JVM so manages memory like Java. Also, there is Kotlin/Native which compiles Kotlin without a virtual machine which manages memory through cyclical garbage collection from an automated refence counter.
+
+[Home](../README.md)
