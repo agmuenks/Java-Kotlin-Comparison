@@ -15,3 +15,5 @@ package kotlin.io;
 
 import kotlin.text.*; //imports all classes and functions in package
 ```
+
+[Home](../README.md)
