@@ -9,8 +9,8 @@ public class Pet {
 	String name; //field of class Pet
 
 	public Pet (String name){
-    	this.name = name; //assigns name from parameters to name field in class
-    }
+    		this.name = name; //assigns name from parameters to name field in class
+    	}
 	
 	public String getName(){
 		return name;
