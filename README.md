@@ -21,5 +21,5 @@ Team Member: Andrew Muenks
 [Implementation of listeners and event handlers](MarkdownFiles/listeners_handlers.md)  
 [Singleton](MarkdownFiles/singleton.md)  
 [Procedural programming](MarkdownFiles/procedural.md)  
-[Functional programming](MarkdownFiles/functiona;.md)  
-[Multithreading](MarkdownFiles/multithreading.md)  
+[Functional programming](MarkdownFiles/functional.md)  
+[Multithreading](MarkdownFiles/multitasking.md)  
